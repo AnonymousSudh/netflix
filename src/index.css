@@ -25,3 +25,13 @@ code {
   grid-template-columns: repeat(3, 1fr);
   /* flex-direction: column; */
 }
+
+@media screen and (max-width:768px) {
+  .card-container{
+    
+    display: grid;
+   
+    grid-template-columns: 1fr;
+  }
+  
+}
